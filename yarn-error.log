@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/alanzeng/.nvm/versions/node/v16.20.2/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/alanzeng/.nvm/versions/node/v16.20.2/bin:/opt/homebrew/anaconda3/bin:/opt/homebrew/anaconda3/condabin:/opt/homebrew/anaconda3/bin:/Library/TeX/texbin:/bin:/usr/bin:/usr/local/bin:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Applications/VMware Fusion.app/Contents/Public:.:/usr/local/mysql/bin:/usr/local/apache-maven-3.9.4/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/alanzeng/Documents/GitHub/SoftwarePractice/elmclient_FE/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly'
+
+npm manifest: 
+  {
+    "name": "elmclient",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "serve": "vue-cli-service serve",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@vue/cli-plugin-babel": "^4.4.6",
+      "@vue/cli-service": "^4.4.6",
+      "axios": "^1.4.0",
+      "element-theme-chalk": "^2.15.7",
+      "font-awesome": "^4.7.0",
+      "gulp-sass": "^5.1.0",
+      "natives": "^1.1.6",
+      "postcss-px-to-viewport": "^1.1.1",
+      "qs": "^6.11.2",
+      "vue": "^3.2.36",
+      "vue-router": "^4.0.13",
+      "vue-template-compiler": "^2.6.11"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^4.3.1",
+      "vite": "^4.4.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,10 @@
+# node_modules
+node_modules
+
+
+### VS Code ###
+.vscode/
+
+
+### MACOS ###
+.DS_Store
