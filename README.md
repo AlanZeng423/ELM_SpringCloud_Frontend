@@ -1,29 +1,20 @@
-# elmclient
+# ELM_SpringCloud_Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
 ```sh
-npm install
+yarn
 ```
 
-### Compile and Hot-Reload for Development
+## Run Project
 
 ```sh
-npm run dev
+yarn serve
 ```
 
-### Compile and Minify for Production
+## 目前进展(基本完成)
 
-```sh
-npm run build
-```
+- 待完成部分
+  - 新增地址
+  - 积分部分
