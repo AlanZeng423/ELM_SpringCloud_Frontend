@@ -156,7 +156,7 @@ export default {
                 //老订单,要根据积分的使用情况去更改
                 // TODO: 更新订单
                 if(usePoints.value == true){
-                    axios.put('Orders/OrdersId', qs.stringify({
+                    axios.post('Orders/updateOrders', qs.stringify({
                         orderId: UsedOrderId.value, 
                         orderTotal: totalPrice.value
                     })).catch(error => {

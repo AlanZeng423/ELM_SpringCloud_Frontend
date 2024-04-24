@@ -72,18 +72,19 @@ export default {
         });
 
         const updatePoint = () =>{
-            axios.post('UserController/updatePoint',qs.stringify({
+            axios.post('User/updatePoint',qs.stringify({
                 userId: user.value.userId,
                 point: newpoint.value
             })).catch(error=>{
                 console.error(error);
             })
 
-            axios.post('OrdersController/updateOrder',qs.stringify({
+            axios.post('Orders/updateOrder',qs.stringify({
                 orderId: orderId.value,
                 orderState: orderState.value
             })).then(response =>{
                 router.push({path:'/'});
+                alert('更新成功');
             }).catch(error=>{
                 console.error(error);
             })
