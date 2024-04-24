@@ -63,15 +63,18 @@ export default {
             user.value =$getSessionStorage('user');
             console.log(user)
             point.value = user.value.point;
+            
             // TODO: 通过接口获取用户积分
-            // axios.get('Credit/totalNum', qs.stringify({
-            //     userId: user.value.userId
-            // })).then(response =>{
-            //     point.value = response.data.result;
-            //     console.log(response.data.result)
-            // }).catch(error => {
-            //     console.error(error);
-            // });
+            axios.get('User/Point', {
+                params: {
+                    userId: user.value.userId
+                }}
+            ).then(response =>{
+                point.value = response.data.result;
+                console.log("POINT"+response.data.result)
+            }).catch(error => {
+                console.error(error);
+            });
         })
         
         return {
